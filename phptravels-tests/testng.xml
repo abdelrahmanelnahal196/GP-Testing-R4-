@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="PHPTravels Test Suite" verbose="1" parallel="none">
+
+    <test name="Login and Registration Tests">
+        <classes>
+            <class name="com.phptravels.tests.LoginRegistrationTest"/>
+        </classes>
+    </test>
+
+    <test name="Flight Search Tests">
+        <classes>
+            <class name="com.phptravels.tests.FlightSearchTest"/>
+        </classes>
+    </test>
+
+    <test name="Hotel Search Tests">
+        <classes>
+            <class name="com.phptravels.tests.HotelSearchTest"/>
+        </classes>
+    </test>
+
+</suite>
